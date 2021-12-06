@@ -9,7 +9,7 @@ public static class KNDPlayerDataAccessExtensions
             new KNDPlayer(){First_Name = "Joachim"},
             new KNDPlayer(){First_Name = "Lowie"},
             new KNDPlayer(){First_Name = "Wout"},
-            new KNDPlayer(){First_Name = "Wout"},
+            new KNDPlayer(){First_Name = "Wout2"},
             new KNDPlayer(){First_Name = "Brecht"}
         };
     }
