@@ -37,7 +37,7 @@ namespace AppOct5.ViewModels
             var contributors = client.Execute<List<KNDPlayer>>(request);
             contributors.Data.ForEach(x => Current_Players.Add(x));
 
-            Current_Players.Add(new KNDPlayer { First_Name = "Joachim" });
+            Current_Players.Add(new KNDPlayer { First_Name = "Tom" });
 
             return Task.FromResult<List<KNDPlayer>>(null);
         }

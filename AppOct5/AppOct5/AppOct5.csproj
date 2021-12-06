@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\KND_Models\KND_Models.csproj" />
     <ProjectReference Include="..\..\ClassLibrary1\ClassLibrary1.csproj" />
+    <ProjectReference Include="..\..\KND_Models\KND_Models.csproj" />
   </ItemGroup>
 </Project>
