@@ -19,5 +19,11 @@ namespace KND_API.Controllers
         {
             return KNDPlayerDataAccessExtensions.Get_Players().ToArray();
         }
+
+        [HttpGet("/GetKNDPlayerByID", Name = "GetKNDPlayerByID")]
+        public KNDPlayer Get(int pivID)
+        {
+            return KNDPlayerDataAccessExtensions.Get_Players().FirstOrDefault(p => p.ID == pivID);
+        }
     }
 }
