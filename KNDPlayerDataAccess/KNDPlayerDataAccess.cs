@@ -1,8 +1,8 @@
 ﻿namespace KNDPlayerDataAccess;
 
-public static class KNDPlayerDataAccessExtensions
+public class KNDPlayerDataAccess
 {
-    public static List<KNDPlayer> Get_Players()
+    public List<KNDPlayer> Get_Players()
     {
         return new List<KNDPlayer>()
         {

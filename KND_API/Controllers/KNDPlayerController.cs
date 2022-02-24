@@ -8,6 +8,7 @@ namespace KND_API.Controllers
     public class KNDPlayerController : ControllerBase
     {
         private readonly ILogger<KNDPlayerController> _logger;
+        private KNDPlayerDataAccess _KNDPlayerDataAccess;
 
         public KNDPlayerController(ILogger<KNDPlayerController> logger)
         {
